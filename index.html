@@ -1,81 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UKSCA Sign up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>    
-            <h1 id="title" class="text-center">UKSCA sign up</h1>
-        </header>
+      <header>
+        <h1 id="title" class="text-center">UKSCA sign up</h1>
+      </header>
 
-        <form id="survey-form" action="/practice.html">
-            <h2>Physical Activity Readiness Questionnaire - PAR-Q </h2>
-            <p class="no-style">Regular physical activity is fun and healthy, and increasingly more people are starting to become more active every day.    Being more active is very safe for most people.    However, some people should check with their doctor before they start becoming much more physically active.To ensure we're able to offer you the best service, please provide the relevant information below to complete the form.</p>
-        
-        <div class="form-control">
-            <label id="name-label" for="name">Name:</label>
-            <input id="name" type="text" placeholder="Enter full name" required>
-        </div>
-        <div class="form-control">
-            <label id="email-label" for="email">Email:</label>
-            <input id="email" type="email" placeholder="Enter email address" required>
-        </div>
-        <div class="form-control">
-            <label id="number-label" for="number">Age:</label>
-            <input id="number" type="number" placeholder="Enter age" required min="18" max="100">
-        </div>
-        <div class="form-control">
-            <label id="activity" for="activity-select">Choose an activity:</label><br>
-            <select name="activity" id="activity-select">
-                <option value="">--Choose an option--</option>
-                <option value="running">Running</option>
-                <option value="football">Football</option>
-                <option value="weightlifting">Weightlifting</option>
-                <option value="rugby">Rugby</option>
-            </select>
-        </div>
-        <div class="form-control">
-            <p> Reason for your visit:</p>
-            <label for="goal">Rehab an injury:</label>
-            <input type="radio" name="goal" id="goal"value="rehab">
-            <label for="goal">Improve aspect of performance:</label>
-            <input type="radio" name="goal" id="goal"value="performance">
-            <label for="goal">Injury prevention package:</label>
-            <input type="radio" name="goal" id="goal" value="ipp">
-        </div>
-        <div class="form-control">
-            <p> Check any part of your anatomy that you would like to be treated:</p>
-            <label for="arms">Arms</label>
-            <input type="checkbox" id="arms" name="arms" value="arms" checked>
-            
-        </div>
-        <div class="form-control">
-            <label for="legs">Legs</label>
-            <input type="checkbox" id="legs" name="legs" value="legs">
-            
-        </div>
-        <div class="form-control">
-            <label for="back">Back</label>
-            <input type="checkbox" id="back" name="back" value="back">
-            
-        </div>
-        <div class="form-control">
-            <label for="core">Core</label>
-            <input type="checkbox" id="core" name="core" value="core">
-            
-        </div>
-        <div class="form-control">
-            <label for="more-info">Please provide information on any other health related issues:</label>
-            <textarea name="more-info" id="more-info" cols="30" rows="10"></textarea>
-        </div>
-        <button id="submit" type="submit">Submit</button> 
-    </form>
+      <form id="survey-form" action="/practice.html">
+        <h2>Physical Activity Readiness Questionnaire - PAR-Q</h2>
+        <p class="no-style">
+          Regular physical activity is fun and healthy, and increasingly more
+          people are starting to become more active every day. Being more active
+          is very safe for most people. However, some people should check with
+          their doctor before they start becoming much more physically active.To
+          ensure we're able to offer you the best service, please provide the
+          relevant information below to complete the form.
+        </p>
 
+        <div class="form-control">
+          <label id="name-label" for="name">Name:</label>
+          <input id="name" type="text" placeholder="Enter full name" required />
+        </div>
+        <div class="form-control">
+          <label id="email-label" for="email">Email:</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter email address"
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label id="number-label" for="number">Age:</label>
+          <input
+            id="number"
+            type="number"
+            placeholder="Enter age"
+            required
+            min="18"
+            max="100"
+          />
+        </div>
+        <div class="form-control">
+          <label id="activity" for="activity-select">Choose an activity:</label
+          ><br />
+          <select name="activity" id="activity-select">
+            <option value="">--Choose an option--</option>
+            <option value="running">Running</option>
+            <option value="football">Football</option>
+            <option value="weightlifting">Weightlifting</option>
+            <option value="rugby">Rugby</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <p>Reason for your visit:</p>
+          <label for="goal">Rehab an injury:</label>
+          <input type="radio" name="goal" id="goal" value="rehab" />
+          <label for="goal">Improve aspect of performance:</label>
+          <input type="radio" name="goal" id="goal" value="performance" />
+          <label for="goal">Injury prevention package:</label>
+          <input type="radio" name="goal" id="goal" value="ipp" />
+        </div>
+        <div class="form-control">
+          <p>
+            Check any part of your anatomy that you would like to be treated:
+          </p>
+          <label for="arms">Arms</label>
+          <input type="checkbox" id="arms" name="arms" value="arms" checked />
+        </div>
+        <div class="form-control">
+          <label for="legs">Legs</label>
+          <input type="checkbox" id="legs" name="legs" value="legs" />
+        </div>
+        <div class="form-control">
+          <label for="back">Back</label>
+          <input type="checkbox" id="back" name="back" value="back" />
+        </div>
+        <div class="form-control">
+          <label for="core">Core</label>
+          <input type="checkbox" id="core" name="core" value="core" />
+        </div>
+        <div class="form-control">
+          <label for="more-info"
+            >Please provide information on any other health related
+            issues:</label
+          >
+          <textarea
+            name="more-info"
+            id="more-info"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
     </div>
-</body>
+  </body>
 </html>
